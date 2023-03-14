@@ -1,0 +1,98 @@
+body {
+  background-color: #060aff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-gta {
+  background-color: #fff;
+  max-width: 360px;
+  font-family: Arial;
+  /* padding: 30px; */
+  padding: 10px 30px;
+  padding-bottom: 2rem;
+  border-radius: 0.3rem;
+
+
+}
+
+.login-text {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.input-cta input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid #8d99ae;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1rem;
+  color: #808094;
+  border: 2px solid #8d99ae;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 13px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #8d99ae;
+  background: #9495f6;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.set-in {
+  font-weight: 600;
+}
+
+.set-in a {
+  text-decoration: none;
+  color: #595cfd;
+  font-weight: 600;
+}
+
+select {
+  /* appearance: none; */
+  background-color: #fff;
+  border: 2px solid #8d99ae;
+  padding: 13px;
+  margin: 0;
+  height: 30%;
+  width: 100%;
+  font-family: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  outline: none;
+}
+
+@media (min-width: 500px) {
+  .container-gta {
+    width: 400px;
+  }
+}
